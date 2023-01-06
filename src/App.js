@@ -13,7 +13,7 @@ function App() {
     <div className="container">
       <BrowserRouter>
         <Routes>
-          <Route exact path="/" element={<Create />} />
+          <Route exact path="/crudtaskwithmockapi" element={<Create />} />
           <Route path="/read" element={<Read />} />
           <Route path="/update/:id" element={<Update />} />
         </Routes>

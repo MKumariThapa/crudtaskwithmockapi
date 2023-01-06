@@ -65,7 +65,7 @@ const Read = () => {
             onChange={inputSearchHanlde}
           />
         </div>
-        <Link to="/">
+        <Link to="/crudtaskwithmockapi">
           <button className="btn btn-primary">Create Data</button>
         </Link>
       </div>

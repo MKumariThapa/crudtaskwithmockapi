@@ -54,7 +54,7 @@ const Create = () => {
             onChange={(e) => setName(e.target.value)}
           />
         </div>
-        <div className="mb-3 form-check">
+        {/* <div className="mb-3 form-check">
           <input
             type="checkbox"
             className="form-check-input"
@@ -63,7 +63,7 @@ const Create = () => {
           <label className="form-check-label" for="exampleCheck1">
             Check me out
           </label>
-        </div>
+        </div> */}
         <button
           type="submit"
           className="btn btn-primary"
